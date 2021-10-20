@@ -1,1 +1,3 @@
-# odin_project_recipes
+# Recipes Site for ODIN Project
+
+A website listing my favorite recipes
