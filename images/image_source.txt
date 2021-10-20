@@ -2,3 +2,5 @@ Image sources:
 
 Bacon_Pancakes.jpg		https://www.cartooncuisine.com/wp-content/uploads/2019/02/Bacon-Pancakes-Screenshot.jpg
 sear_steak.png			https://www.seriouseats.com/reverse-seared-steak-recipe
+braised_pork.jpg		https://www.spoonforkbacon.com/braised-pork-ragu-over-pappardelle/
+grilled_sausage.jpg		https://www.theblackpeppercorn.com/how-to-grill-italian-sausages/
