@@ -1,0 +1,53 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color:bisque;
+}
+
+img{
+    display:block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content,
+.content>*,
+.content>*>*,
+.content>*>*>*{
+    
+    background-color:rgb(241, 205, 160);
+}
+
+.ingredients,
+.ingredients>*,
+.ingredients>*>*,
+.ingredients>*>*>*{
+    background-color:chocolate;
+    
+}
+
+.directions,
+.directions>*,
+.directions>*>*,
+.directions>*>*>*{
+    background-color:coral;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 25px;   
+    text-indent: 20px;
+}
+
+.directions .heading{
+    color:blue;
+}
