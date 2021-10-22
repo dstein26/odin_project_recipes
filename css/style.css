@@ -1,7 +1,14 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    background-color:bisque;
 }
 
 img{
@@ -13,41 +20,49 @@ img{
     
 }
 
+.main-content{
+    background-color:bisque;
+    color:black;
+    height:100%;
+}
+
+
 #title{
+    background-color: inherit;
     font-size: 38px;
     font-weight: bold;
     text-align: center;
 }
 
-.content,
-.content>*,
-.content>*>*,
-.content>*>*>*{
-    
+
+.content{ 
+    padding:10px; 
     background-color:rgb(241, 205, 160);
+    margin:10px;
 }
 
-.ingredients,
-.ingredients>*,
-.ingredients>*>*,
-.ingredients>*>*>*{
+.ingredients{
     background-color:chocolate;
+    margin:20px;
+    border:3px solid;
+    border-color:black;
     
 }
 
-.directions,
-.directions>*,
-.directions>*>*,
-.directions>*>*>*{
+.directions{
     background-color:coral;
+    margin:20px;
+    border:3px solid;
+    border-color: red;
 }
 
 .heading{
     font-weight: bold;
     font-size: 25px;   
     text-indent: 20px;
+    font-style:italic;
 }
 
 .directions .heading{
-    color:blue;
+    color:rgb(42, 6, 83);
 }
